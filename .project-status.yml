@@ -1,0 +1,21 @@
+schema: portfolio-status/v1
+
+name: agents-with-proxy
+zone: infra
+anchor: 🔌 agents-with-proxy
+summary: Обёртки запуска Claude Code и Codex через HTTP/SOCKS-прокси.
+
+stage: Готово, используется по мере надобности
+progress:
+  percent: 100
+
+next: Ничего не требуется — при желании завести remote для бэкапа
+next_ref: README.md
+
+docs:
+  - README.md
+
+blocked_by:
+  - нет remote — бэкапа не существует
+
+updated: 2026-09-03
